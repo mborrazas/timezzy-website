@@ -1,0 +1,41 @@
+.bookService {
+    background: #00a3ad;
+    border: 1px solid #00a3ad;
+    color: #fff;
+    padding: 6px 8px;
+    font-weight: 600;
+    font-size: 12;
+    border-radius: 7px;
+    letter-spacing: .08px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+
+.services h2 {
+    color: #484848;
+    line-height: 36px;
+}
+
+.serviceContainerHeader {
+    border-bottom: 1px solid;
+    border-color: #ebebeb;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceContainerHeader .findService {
+    background-color: #ebebeb;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px;
+    letter-spacing: .09px;
+    line-height: 18px;
+    border: 0px;
+    color: #bfbfbf;
+}
+
+.serviceContainerHeader .findService::placeholder{
+    color: #bfbfbf;
+}

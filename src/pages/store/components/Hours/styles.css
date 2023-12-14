@@ -1,0 +1,39 @@
+.dayHourContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.dayContainer {
+    vertical-align: top;
+    width: 50%;
+    color: #484848;
+    padding: 0 0 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.hourContainer {
+    vertical-align: top;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.hourContainer .hour {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #484848;
+    font-weight: 500;
+}
+
+.hrSidebar {
+    border-bottom: 1px solid;
+    border-color: #ebebeb;
+    background-color: #ebebeb;
+    border-top: 0;
+    margin-bottom: 10px;
+}
+
+.hours{
+    padding-top: 10px;
+}

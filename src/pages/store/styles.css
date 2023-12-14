@@ -1,0 +1,32 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.store {
+    display: grid;
+    grid-template-columns: 67.5% 32.5%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.containerStore {
+    padding-right: 11%;
+}
+
+.containerStore section h1 {
+    font-size: 32px;
+    white-space: normal;
+    color: #484848;
+}
+
+.containerStore section address {
+    color: #767676;
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+}

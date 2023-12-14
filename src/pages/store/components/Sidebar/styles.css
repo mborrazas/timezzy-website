@@ -1,0 +1,56 @@
+.sidebarContainer {
+    background-color: #fafafa;
+    border-radius: 6px;
+    padding: 30px 22px 1px;
+}
+
+.phoneAction {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.phoneSidebar {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.phoneContainer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.phoneContainer p {
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.phoneContainer svg {
+    height: 21px;
+}
+
+.descriptionStore {
+    font-size: 12px;
+    letter-spacing: .09px;
+    color: #484848;
+    line-height: 24px;
+}
+
+.titleDescriptionStore, .titleHours{
+    color: #383734;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.containerDescriptionStore{
+    margin-bottom: 30px;
+}

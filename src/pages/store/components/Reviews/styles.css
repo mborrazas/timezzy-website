@@ -1,0 +1,10 @@
+.startReview{
+    height: 20px;
+}
+.reportReview{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 16px;
+    color: #484848;
+    cursor: pointer;
+}
