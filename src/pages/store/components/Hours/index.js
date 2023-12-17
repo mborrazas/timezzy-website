@@ -7,7 +7,7 @@ require('./styles.css')
 const Hours = ({ phone }) => {
 
     const daysCollections = {
-        closeDays: [{ day: "Dic. 16, 2023", hour: "15:00 - 17:00" }], days: [
+        closeDays: [{ day: "Dic. 16, 2023", hour: "15:00 - 17:00" }, { day: "Dic. 24, 2023", hour: "Cerrado" }], days: [
             { day: "Lunes", hour: "09:00 - 18:00" },
             { day: "Martes", hour: "09:00 - 18:00" },
             { day: "Miercoles", hour: "09:00 - 18:00" },

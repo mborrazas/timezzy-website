@@ -31,9 +31,6 @@ const Store = () => {
                     <address>{storeCollection.address}</address>
                 </section>
                 <Services />
-                <Gallery />
-                <Amenities />
-                <Reviews />
             </main>
             <aside>
                 <Sidebar phone={storeCollection.phone} />

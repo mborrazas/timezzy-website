@@ -11,18 +11,26 @@
     cursor: pointer;
 }
 
+.services{
+    padding-top: 36px;
+}
 
-.services h2 {
+
+.services .categoryService {
     color: #484848;
-    line-height: 36px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 .serviceContainerHeader {
     border-bottom: 1px solid;
     border-color: #ebebeb;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .serviceContainerHeader .findService {
@@ -34,8 +42,76 @@
     line-height: 18px;
     border: 0px;
     color: #bfbfbf;
+    height: 20px;
+    width: 40%;
+    margin-top: 12px;
 }
 
-.serviceContainerHeader .findService::placeholder{
+.serviceContainerHeader .findService::placeholder {
     color: #bfbfbf;
+}
+
+
+.serviceTitle {
+    color: #383734;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.serviceDescription {
+    color: hsla(0, 0%, 9%, .7);
+    font-size: 12px;
+    width: 211px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.containerServicePrice {
+    display: flex;
+    margin-top: 9px;
+}
+
+.containerServicePrice span{
+    display: block;
+}
+
+.priceService{
+    color: #383734;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 14px;
+    letter-spacing: .09px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.timeService{
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+    color: #a9a9a9;
+    display: block;
+    text-align: right;
+}
+
+.service .bookService{
+    height: 32px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+
+.serviceContainerHeader .titleServices {
+    color: #484848;
+    padding-top: 16px;
+    font-size: 30px;
+    letter-spacing: .2px;
+
 }

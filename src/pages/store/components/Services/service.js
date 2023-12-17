@@ -9,13 +9,15 @@ const Service = ({ title, price, time, description }) => {
 
   return (
     <div className="service">
-      <div>
-        <h2>{title}</h2>
-        <p>{description}</p>
+      <div className='serviceContainerDetail'>
+        <h3 className='serviceTitle'>{title}</h3>
+        <p className='serviceDescription'>{description}</p>
       </div>
-      <div>
-        <span>{price}</span>
-        <span>{time}</span>
+      <div className='containerServicePrice'>
+        <div>
+          <span className='priceService'>{price}</span>
+          <span className='timeService'>{time}</span>
+        </div>
         <button className='bookService'>Agendar</button>
       </div>
     </div>
