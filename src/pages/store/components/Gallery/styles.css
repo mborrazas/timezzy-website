@@ -10,13 +10,57 @@
     letter-spacing: .1px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .gallery h3 {
     font-size: 22px;
     color: #484848;
     line-height: 36px;
-    margin-bottom: 32px;
+    margin-bottom: 23px;
     letter-spacing: 0;
     font-weight: bold;
+    margin-top: 45px;
+}
+
+.containerGallery {
+    display: flex;
+}
+
+
+.containerGallery .first {
+    width: 50%;
+}
+
+.containerGallery .first img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.containerGallery .second {
+    display: flex;
+    width: 49.5%;
+    overflow: hidden;
+    margin-left: 9px;
+}
+
+.containerGallery .second img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.containerGallery .second div:first-of-type {
+    margin-right: 10px;
+}
+
+.containerGallery .second img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.containerGallery .second img:first-of-type{
+    margin-bottom: 7px;
 }

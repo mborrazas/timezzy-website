@@ -30,3 +30,9 @@ body {
     letter-spacing: .08px;
     line-height: 16px;
 }
+
+footer{
+    background-color: #161718;
+    height: 100px;
+    margin-top: 50px;
+}

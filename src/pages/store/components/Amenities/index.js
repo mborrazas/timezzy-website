@@ -34,12 +34,14 @@ const Amenities = () => {
   return (
     <div className="amenities">
       <h3>Comodidades</h3>
-      {amenitiesCollection.map((item) => (
-        <div>
-          {svgreturned(item.slug)}
-          <p>{item.title}</p>
-        </div>
-      ))}
+      <div className='containerAmenities'>
+        {amenitiesCollection.map((item) => (
+          <div className='containerAmenity'>
+            {svgreturned(item.slug)}
+            <p>{item.title}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

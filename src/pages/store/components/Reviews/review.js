@@ -13,23 +13,25 @@ const Review = ({ stars, service, name, createdDate, review, answer, answerDate 
   return (
     <div className="review">
       <div>
-        <div>
+        <div className='containerHeaderReview'>
           <div>
             {starElement()}
-            {service}
+            <span className='containerServiceName'>{service}</span>
           </div>
-          <div>
-            {name}
-            {createdDate}
+          <div className='containerNameReview'>
+            <span className='nameReview'>{name}</span>
+            •
+            <span className='dateReview'>{createdDate}</span>
           </div>
         </div>
-        <p>{review}</p>
-        <div>
-          <button className='reportReview'>
-            Informar
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 .05a.75.75 0 0 1 .743.648L4.75.8v1.723a6.948 6.948 0 0 1 8.18.946c2.112 2.104 4.82 2.5 6.543.798a.75.75 0 0 1 1.27.43l.007.103v9.6a.75.75 0 0 1-.204.515 5.974 5.974 0 0 1-4.346 1.874c-1.645 0-3.217-.678-4.31-1.839a5.434 5.434 0 0 0-7.14-.21v8.46a.75.75 0 0 1-1.493.102L3.25 23.2V.8A.75.75 0 0 1 4 .05zm.75 4.29v8.583a6.957 6.957 0 0 1 8.196.962 4.474 4.474 0 0 0 6.153.338l.151-.136V6.27l-.17.086c-2.19 1.037-4.897.361-7.005-1.627l-.184-.179a5.435 5.435 0 0 0-6.943-.365l-.198.155z"></path></svg>
-          </button>
+        <p className='reviewMessage'>{review}</p>
+      </div>
+      <div className='answer'>
+        <div className='answerHeader'>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M12.697 7.606c-.602-1.34-2.228-2.01-4.88-2.01H6.57V4.319a.292.292 0 0 0-.106-.224A.364.364 0 0 0 6.212 4a.364.364 0 0 0-.251.095L3.106 6.648A.292.292 0 0 0 3 6.873c0 .086.035.16.106.224L5.96 9.65c.07.063.154.095.251.095s.18-.032.25-.095a.292.292 0 0 0 .107-.224V8.149h1.249c.364 0 .69.01.978.03.288.02.575.056.86.107.284.052.53.122.741.212.21.09.406.206.588.347.182.141.331.309.447.504.115.194.205.424.27.69.065.266.098.567.098.903 0 .183-.01.387-.028.613 0 .02-.005.06-.014.117a.921.921 0 0 0-.014.133c0 .05.016.09.047.124.032.033.075.05.131.05.06 0 .112-.028.156-.085a.56.56 0 0 0 .073-.11 8.36 8.36 0 0 0 .134-.269c.472-.947.708-1.697.708-2.249 0-.661-.099-1.215-.296-1.66z"></path></svg>
+          <span>Respondido: {answerDate}</span>
         </div>
+        <p className='answerMessage'>{answer}</p>
       </div>
     </div>
   );

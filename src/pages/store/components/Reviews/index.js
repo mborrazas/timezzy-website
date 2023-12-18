@@ -7,14 +7,17 @@ require('./styles.css')
 const Reviews = () => {
 
   const reviewsCollection = [
-    { stars: 5, service: "Corte de pelo", name: "Matías Borrazás", created_date: "Nov. 17, 2023", review: "Tremendo corte", answer: "Gracias Mati", answer_date: "Nov. 20, 2023" }
+    { stars: 5, service: "Speciality Haircut (Skin fades, blow out, Mohawk)", name: "Matías Borrazás", created_date: "Nov. 17, 2023", review: "Tremendo corte", answer: "Gracias Mati", answer_date: "Nov. 20, 2023" }
   ];
 
 
   return (
     <div className="reviews">
       <h3>Reseñas</h3>
-      <p>Timezzy garantiza que las reseñas son creadas por personas que hayan utilizado el servicio y estan registrados en la plataforma.</p>
+      <p className='disclaimer'>
+        Timezzy garantiza que las reseñas con la etiqueta "Usuario verificado por Timezzy" han sido añadidas por usuarios registrados de Timezzy que han tenido una cita con el proveedor. 
+        Un usuario registrado de Timezzy solo tiene la oportunidad de agregar una reseña después de que se le haya brindado el servicio.
+      </p>
       {reviewsCollection.map((review) => (
         <Review
           stars={review.stars}

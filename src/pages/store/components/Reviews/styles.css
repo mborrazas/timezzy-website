@@ -1,10 +1,111 @@
-.startReview{
+.startReview {
     height: 20px;
 }
-.reportReview{
+
+.reportReview {
     background-color: #fff;
     border: 1px solid #dbdbdb;
     border-radius: 16px;
     color: #484848;
     cursor: pointer;
+}
+
+.reviews h3 {
+    color: #484848;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 21px;
+    margin-top: 22px;
+}
+
+.reviews .disclaimer {
+    font-size: 14px;
+    letter-spacing: .09px;
+    color: #767676;
+    line-height: 22px;
+    width: 59%;
+}
+
+.review .startReview {
+    fill: #ff9400;
+}
+
+.containerHeaderReview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    margin-top: 39px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.startReview {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.containerServiceName {
+    display: block;
+    color: #2a2d32;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    letter-spacing: .08px;
+    line-height: 16px;
+}
+
+.containerNameReview {
+    color: #767676;
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+}
+
+.containerNameReview .nameReview {
+    margin-right: 4px;
+}
+
+.containerNameReview .dateReview {
+    margin-left: 4px;
+}
+
+.reviewMessage {
+    font-size: 14px;
+    letter-spacing: .09px;
+    color: #484848;
+    line-height: 22px;
+}
+
+.answer {
+    background-color: #fafafa;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.answerHeader svg {
+    height: 10px;
+    fill: #767676;
+    height: 13px;
+    fill: #767676;
+    margin-right: 4px;
+}
+
+.answerHeader span {
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+    color: #767676;
+    margin-bottom: 10px;
+}
+
+.answerMessage {
+    color: #767676;
+    font-size: 12px;
+    letter-spacing: .08px;
+    line-height: 16px;
+    margin-top: 12px;
 }

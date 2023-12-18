@@ -54,3 +54,8 @@
 .containerDescriptionStore{
     margin-bottom: 30px;
 }
+
+.sidebar{
+    position: fixed;
+    width: 18%;
+}

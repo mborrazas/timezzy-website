@@ -24,18 +24,24 @@ const Store = () => {
     }
 
     return (
-        <div className="store">
-            <main className='containerStore'>
-                <section>
-                    <h1>{storeCollection.title}</h1>
-                    <address>{storeCollection.address}</address>
-                </section>
-                <Services />
-            </main>
-            <aside>
-                <Sidebar phone={storeCollection.phone} />
-            </aside>
-        </div>
+        <>
+            <div className="store">
+                <main className='containerStore'>
+                    <section>
+                        <h1>{storeCollection.title}</h1>
+                        <address>{storeCollection.address}</address>
+                    </section>
+                    <Services />
+                    <Gallery />
+                    <Amenities />
+                    <Reviews />
+                </main>
+                <aside>
+                    <Sidebar phone={storeCollection.phone} />
+                </aside>
+            </div>
+            <footer></footer>
+        </>
     );
 }
 
