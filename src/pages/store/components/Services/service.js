@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 require('./styles.css')
 
-const Service = ({ title, price, time, description }) => {
+const Service = ({ title, price, time, description, onClick }) => {
+
+
+
 
 
 
@@ -15,10 +18,10 @@ const Service = ({ title, price, time, description }) => {
       </div>
       <div className='containerServicePrice'>
         <div>
-          <span className='priceService'>{price}</span>
-          <span className='timeService'>{time}</span>
+          <span className='priceService'>${price}</span>
+          <span className='timeService'>{time}min</span>
         </div>
-        <button className='bookService'>Agendar</button>
+        <button className='bookService' onClick={() => { onClick() }}>Agendar</button>
       </div>
     </div>
   );

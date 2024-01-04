@@ -1,15 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Sidebar from './components/Sidebar';
 import Reviews from './components/Reviews';
 import Amenities from './components/Amenities';
 import Gallery from './components/Gallery';
 import Services from './components/Services';
+import PopupBook from './components/PopupBook';
+import { BookingContext } from '../../context/bookingContext';
 
 
 require('./styles.css')
 
 const Store = () => {
 
+    const { showPopupBook } = useContext(BookingContext);
     useEffect(() => {
         document.title = '💈Flawless Fades & Hair Units Studio💈 - Timezzy';
     }, []);
@@ -40,6 +43,7 @@ const Store = () => {
                     <Sidebar phone={storeCollection.phone} />
                 </aside>
             </div>
+            {showPopupBook && (<PopupBook />)}
             <footer></footer>
         </>
     );

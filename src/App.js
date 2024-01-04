@@ -1,8 +1,13 @@
+import { useState } from "react";
 import {
   createBrowserRouter,
-  RouterProvider,
 } from "react-router-dom";
 import Store from './pages/store';
+import { BookingContext } from "./context/bookingContext";
+import { SELECT_HOURS } from "./pages/store/components/PopupBook/stepsBooking";
+import Reviews from "./pages/reviews";
+import CancelBooking from "./pages/cancelBooking";
+
 
 const router = createBrowserRouter([
   {
@@ -12,12 +17,22 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+
+
+  const [servicesSelected, setServicesSelected] = useState([]);
+  const [showPopupBook, setShowPopupBook] = useState(false);
+  const [stepPopupBook, setStepPopupBook] = useState(SELECT_HOURS);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Store />
-      </header>
-    </div>
+    <BookingContext.Provider value={{ servicesSelected, setServicesSelected, showPopupBook, setShowPopupBook, stepPopupBook, setStepPopupBook }}>
+      <div className="App">
+        <header className="App-header">
+          <Store />
+        </header>
+      </div>
+    </BookingContext.Provider>
   );
 }
 

@@ -1,0 +1,59 @@
+.reviewContainer {
+    text-align: center;
+}
+
+.containerBoxReview {
+    width: 48%;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    height: 74px;
+    padding: 19px;
+    font-size: 14px;
+}
+
+.containerTitleReview {
+    border-top: 1px solid #ebebeb;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 33px;
+    margin-top: 33px;
+}
+
+.createReview {
+    box-shadow: 0 4px 6px 0 rgba(33, 140, 172, .3);
+    background-color: rgb(33, 140, 172);
+    border-radius: 8px;
+    border: 1px solid rgba(23, 23, 23, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.3s ease 0s;
+    color: white;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    width: 37%;
+    margin-top: 29px;
+}
+
+.reviewNameStore {
+    color: #484848;
+    font-size: 32px;
+}
+
+.serviceInReview {
+    color: #767676;
+    margin-top: 6px;
+}
+
+.reviewContainer {
+    padding-top: 59px;
+    padding-bottom: 60px;
+    height: 80vh;
+}
+
+.containerTitleReview h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    font-weight: 400;
+}

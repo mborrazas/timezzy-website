@@ -1,0 +1,115 @@
+.cancelContainer {
+    display: block;
+    text-align: center;
+    min-height: 83vh;
+}
+
+
+.continue {
+    box-shadow: 0 4px 6px 0 rgba(33, 140, 172, .3);
+    background-color: rgb(33, 140, 172);
+    border-radius: 8px;
+    border: 1px solid rgba(23, 23, 23, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.3s ease 0s;
+    color: white;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    width: 37%;
+    margin-top: 29px;
+    margin-bottom: 19px;
+    max-width: 700px;
+}
+
+
+.cancel {
+    margin: 0 auto;
+    border: 1px solid rgba(23, 23, 23, 0.06);
+    background-color: transparent;
+    border-radius: 0.5rem;
+    transition: background-color 0.5s;
+    height: 48px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+    width: 37%;
+    display: block;
+    max-width: 700px;
+}
+
+
+.cancelNameStore {
+    color: #484848;
+    font-size: 32px;
+    margin-top: 44px;
+}
+
+.serviceCancel {
+    color: #767676;
+    margin-top: 6px;
+    margin-bottom: 13px;
+}
+
+
+
+.containerTitleCancel h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+
+.serviceAndPrice {
+    background-color: #f3f3f3;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 56%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+
+.cancelContainer h2 {
+    font-size: 23px;
+    margin-top: 47px;
+    margin-bottom: 8px;
+}
+
+.cancelContainer h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.cancelContainer p {
+    font-weight: 300;
+    margin-top: 6px;
+    margin-bottom: 26px;
+    font-size: 15px;
+    color: gray;
+}
+
+.containerNameAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerNameAndPrice div p:first-of-type{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.containerNameAndPrice div .people{
+    text-align: left;
+}
+
+.containerNameAndPrice div .hours{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.containerNameAndPrice .containerPriceAndHour{
+    text-align: right !important;
+}

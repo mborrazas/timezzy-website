@@ -7,17 +7,29 @@ require('./styles.css')
 
 const Sidebar = ({ phone }) => {
 
-
     return (
         <div className="sidebar">
             <Giftcard />
+            <div className='map'>
+                <img src="/mapa.png" />
+            </div>
             <section className='sidebarContainer'>
-                <div className='map'>
-
-                </div>
                 <div className='containerDescriptionStore'>
                     <h3 className='titleDescriptionStore'>QUIENES SOMOS</h3>
                     <p className='descriptionStore'>Hair Units Installations - Hair Replacement Services - Non Surgical - Wig Shop Barbering Services</p>
+                </div>
+                <div className='personalArea'>
+                    <h3 className='titlePersonal'>Miembros del personal</h3>
+                    <div className='personalContainer'>
+                        <div className='personal'>
+                            <img src="https://d375139ucebi94.cloudfront.net/region2/es/2511/resource_photos/8f690adeb7da4a84b7dcd2cdacdbd42a.jpeg?size=250x250&amp;size=100x100" />
+                            <p>Lisa Guerra</p>
+                        </div>
+                        <div className='personal'>
+                            <img src="https://d375139ucebi94.cloudfront.net/region2/es/2511/resource_photos/8f690adeb7da4a84b7dcd2cdacdbd42a.jpeg?size=250x250&amp;size=100x100" />
+                            <p>Lisa Guerra</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <h3 className='titleHours'>HORARIO DE APERTURA Y CONTACTO</h3>

@@ -14,6 +14,11 @@
     cursor: pointer;
 }
 
+.map img {
+    width: 100%;
+    height: auto;
+}
+
 .phoneSidebar {
     display: flex;
     height: fit-content;
@@ -44,18 +49,45 @@
     line-height: 24px;
 }
 
-.titleDescriptionStore, .titleHours{
+.titleDescriptionStore,
+.titleHours {
     color: #383734;
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 20px;
 }
 
-.containerDescriptionStore{
+.containerDescriptionStore {
     margin-bottom: 30px;
 }
 
-.sidebar{
-    position: fixed;
-    width: 18%;
+
+.personalArea {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.personalArea .titlePersonal {
+    font-size: 14px;
+    color: #383734;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.personalArea .personalContainer {
+    display: flex;
+    text-align: center;
+    place-content: space-around;
+}
+
+.personalArea .personalContainer .personal img {
+    border-radius: 50%;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.personalArea .personalContainer .personal p{
+    font-size: 12px;
+    font-weight: 400;
 }
