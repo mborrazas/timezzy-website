@@ -48,3 +48,10 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .giftCardContainer {
+        display: none;
+    }
+}

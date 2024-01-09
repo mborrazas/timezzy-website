@@ -57,3 +57,31 @@
     margin-bottom: 14px;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 768px) {
+    .reviewNameStore {
+        font-size: 20px;
+        padding-top: 8%;
+    }
+
+    .createReview {
+        width: 90%;
+    }
+
+    .containerBoxReview {
+        width: 80%;
+    }
+
+    .containerTitleReview {
+        width: 100%;
+    }
+
+    .serviceInReview {
+        font-size: 12px;
+    }
+
+    .containerTitleReview h2{
+        margin-bottom: 26px;
+    }
+
+}

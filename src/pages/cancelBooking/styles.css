@@ -91,25 +91,75 @@
     color: gray;
 }
 
-.containerNameAndPrice{
+.containerNameAndPrice {
     display: flex;
     justify-content: space-between;
 }
 
-.containerNameAndPrice div p:first-of-type{
+.containerNameAndPrice div p:first-of-type {
     margin-bottom: 10px;
     text-align: left;
 }
 
-.containerNameAndPrice div .people{
+.containerNameAndPrice div .people {
     text-align: left;
 }
 
-.containerNameAndPrice div .hours{
+.containerNameAndPrice div .hours {
     margin-top: 0;
     padding-top: 0;
 }
 
-.containerNameAndPrice .containerPriceAndHour{
+.containerNameAndPrice .containerPriceAndHour {
     text-align: right !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .serviceAndPrice {
+        width: 80%;
+    }
+
+    .continue {
+        width: 80%;
+    }
+
+    .cancel {
+        width: 80%;
+    }
+
+    .cancelContainer h2 {
+        font-size: 21px;
+    }
+
+    .cancelContainer h3 {
+        font-size: 20px;
+    }
+
+    .containerNameAndPrice div p:first-of-type {
+        margin-bottom: 5px;
+    }
+
+    .containerNameAndPrice div .hours {
+        margin-bottom: 15px;
+        margin-top: 4px;
+    }
+
+    .containerNameAndPrice div p:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .serviceCancel {
+        border-bottom: 1px solid #e2e2e2;
+        padding-bottom: 10px;
+        margin-bottom: 16px;
+    }
+
+    .serviceAndPrice{
+        padding-bottom: 1px;
+    }
+
+    .containerNameAndPrice div .people {
+        margin-bottom: 10px;
+    }
 }

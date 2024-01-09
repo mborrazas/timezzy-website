@@ -54,26 +54,26 @@
 }
 
 
-.headerService{
+.headerService {
     display: flex;
     justify-content: space-between;
 }
 
-.headerService .containerPriceService{
+.headerService .containerPriceService {
     text-align: right;
 }
 
-.headerService .containerServicesTitle h3{
+.headerService .containerServicesTitle h3 {
     padding-top: 8px;
 }
 
-.headerService .containerPriceService .hours{
+.headerService .containerPriceService .hours {
     color: #767676;
     font-size: 12px;
     font-weight: 300;
 }
 
-.headerService .containerPriceService .priceService{
+.headerService .containerPriceService .priceService {
     display: block;
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -354,7 +354,7 @@
     letter-spacing: 2px;
 }
 
-.containerTotal .totalTitle{
+.containerTotal .totalTitle {
     margin-right: 11px;
 }
 
@@ -914,7 +914,7 @@
     font-weight: 300;
 }
 
-.textRight{
+.textRight {
     text-align: right !important;
 }
 
@@ -922,31 +922,31 @@
     font-size: 12px;
 }
 
-.confirmBookingPopup .hours{
+.confirmBookingPopup .hours {
     font-size: 13px;
-    padding:0;
+    padding: 0;
 
 }
 
-.confirmBookingPopup .totalPrice{
+.confirmBookingPopup .totalPrice {
     padding-top: 9px;
     font-weight: 300;
     color: rgba(23, 23, 23, 0.7);
 }
 
 
-.confirmBookingPopup .totalPrice span{
+.confirmBookingPopup .totalPrice span {
     font-weight: 600;
     letter-spacing: 0.2px;
     color: black;
     margin-left: 10px;
 }
 
-.footerPopupBookSelectHours{
+.footerPopupBookSelectHours {
     margin-top: 0px;
 }
 
-.removeService{
+.removeService {
     position: absolute;
     right: -12px;
     top: -11px;
@@ -962,10 +962,60 @@
     cursor: pointer;
 }
 
-.removeService svg{
+.removeService svg {
     height: 14px;
 }
 
 .containerServices .servicePopup {
     position: relative;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .popupBook {
+        height: 100vh;
+        top: 0;
+        border-radius: 0;
+    }
+
+    .bodyPopupBook {
+        height: 64vh;
+        max-height: 64vh;
+    }
+
+    .containerServices .servicePopup {
+        width: 82%;
+    }
+
+    .confirmBookingPopup,
+    .loginPopupBook {
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 96vh;
+        max-height: 96vh;
+    }
+
+    .headerService .containerServicesTitle h3 {
+        font-size: 17px;
+    }
+
+    .containerPriceService {
+        width: 52%;
+    }
+
+    .containerTotal .priceTotal {
+        font-size: 22px;
+    }
+
+    .titleInputLogin {
+        font-size: 21px;
+    }
+
+    .confirmBookingHours {
+        font-size: 21px;
+    }
+
+    .headerPopupBook .loginHeader {
+        font-size: 22px;
+    }
 }

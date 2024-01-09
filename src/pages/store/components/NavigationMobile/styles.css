@@ -1,0 +1,34 @@
+.navigationMobile {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.navigationMobile button {
+    margin-right: 22px;
+    color: #98999e;
+    background: transparent;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+
+.navigationMobile .selected {
+    border-bottom: 2px solid #000;
+    padding-bottom: 7px;
+    color: #000;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .navigationMobile {
+        display: none;
+    }
+}

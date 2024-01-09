@@ -121,3 +121,25 @@
     letter-spacing: .2px;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+    .serviceContainerHeader h2 {
+        display: none;
+    }
+
+    .serviceContainerHeader .findService {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px
+    }
+
+    .services {
+        padding: 0;
+        min-height: 370px;
+    }
+
+    .serviceTitle{
+        font-size: 14px;
+    }
+}

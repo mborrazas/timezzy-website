@@ -31,9 +31,28 @@ body {
     line-height: 16px;
 }
 
-footer{
+footer {
     background-color: #161718;
     height: 100px;
     margin-top: 50px;
     border-top: 4px solid #00a3ad;
+}
+
+@media only screen and (max-width: 768px) {
+    .store {
+        display: block;
+    }
+
+    .containerStore {
+        padding: 0 15px;
+        padding-bottom: 15px;
+    }
+
+    .containerStore section h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        min-height: 300px;
+    }
 }

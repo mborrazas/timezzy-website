@@ -111,13 +111,13 @@
 }
 
 
-.reviewDisclaimerStars{ 
+.reviewDisclaimerStars {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.reviewDisclaimerStars .startReview{
+.reviewDisclaimerStars .startReview {
     fill: #ff9400;
 }
 
@@ -128,9 +128,9 @@
     line-height: 16px;
     text-align: center;
 }
- 
 
-.reviewDisclaimerStars .calificactionTotal{
+
+.reviewDisclaimerStars .calificactionTotal {
     font-size: 26px;
     letter-spacing: .2px;
     line-height: 40px;
@@ -141,11 +141,11 @@
     text-align: center;
 }
 
-.reviewDisclaimerStars .calificactionTotal span{
+.reviewDisclaimerStars .calificactionTotal span {
     font-size: 16px;
 }
 
-.containerStars{
+.containerStars {
     border: 1px solid #ebebeb;
     border-radius: 6px;
     width: 193px;
@@ -153,6 +153,20 @@
     height: 86px;
 }
 
-.containerStars .starstotal{
+.containerStars .starstotal {
     text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .reviews .disclaimer {
+        display: none;
+    }
+
+    .containerStars {
+        width: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
